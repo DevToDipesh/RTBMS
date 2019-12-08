@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard.ourteam.OurTeamFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <fragment android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_margin="@dimen/_16sdp"
+            android:orientation="vertical"
+            android:background="@drawable/search_view">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEARBY HOSPITALS"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_18ssp"
+                android:fontFamily="@font/josefinsans_bold"
+
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

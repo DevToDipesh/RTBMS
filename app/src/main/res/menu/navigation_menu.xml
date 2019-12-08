@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/science"
+        android:icon="@drawable/ic_science"
+
+        android:title="@string/science" />
+    <item
+        android:id="@+id/newsfeed"
+        android:icon="@drawable/ic_newsfeed"
+        android:title="@string/news_feed" />
+    <item
+        android:id="@+id/dodont"
+        android:icon="@drawable/ic_doanddont"
+        android:title="@string/do_and_don_t" />
+
+
+    <item
+        android:id="@+id/ourteam"
+        android:icon="@drawable/ic_team"
+        android:title="@string/our_team" />
+
+
+</menu>

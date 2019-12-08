@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:elevation="10dp"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="10dp"
+    android:background="@color/lightgray"
+
+    android:layout_gravity="top"
+    tools:targetApi="lollipop">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_gravity="top"
+
+        tools:ignore="MissingPrefix">
+
+        <ImageView
+            android:id="@+id/imNewsImage"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            tools:ignore="RtlHardcoded" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/gradient_transparent"
+            android:layout_height="250dp">
+
+            <TextView
+                android:id="@+id/tvNewsDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+
+                android:layout_marginBottom="-164dp"
+                android:layout_marginStart="13dp"
+                android:padding="5dp"
+                android:layout_marginTop="175dp"
+                android:text="Date" />
+            <TextView
+                android:id="@+id/tvNewsName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:layout_marginTop="194dp"
+                android:padding="@dimen/_10sdp"
+                android:text="Name"
+
+                android:textSize="17sp"
+                android:textStyle="bold"
+                tools:ignore="NotSibling" />
+        </FrameLayout>
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/tvNewsName"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="255dp"
+            android:fontFamily="@font/josefinsans_light"
+            android:textSize="15sp"
+            android:padding="@dimen/_15sdp"
+            android:text="desc"
+            android:textColor="#000000"
+            tools:ignore="notSibling" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

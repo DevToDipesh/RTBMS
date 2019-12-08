@@ -1,0 +1,199 @@
+{
+  "project_info": {
+    "project_number": "140966400062",
+    "firebase_url": "https://rtbms-dev-001.firebaseio.com",
+    "project_id": "rtbms-dev-001",
+    "storage_bucket": "rtbms-dev-001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140966400062:android:22f24b02328fe986d3016f",
+        "android_client_info": {
+          "package_name": "in.terxlabs.rtbms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140966400062-24pfu9g60v5lg4sckelema8ll1290r9e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.terxlabs.rtbms",
+            "certificate_hash": "5fba1439bcbd74f599cfbb29386360a87e08ebc4"
+          }
+        },
+        {
+          "client_id": "140966400062-ne7cpfubt09670k75r4kn9vgms0hho6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPcmYW7T0Mj8VbSmMXIR6JRfj68UcUPAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140966400062-ne7cpfubt09670k75r4kn9vgms0hho6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140966400062:android:ba13040e3006b8dd",
+        "android_client_info": {
+          "package_name": "in.terxlabs.rtbms_dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140966400062-sc6q2bic6roc2bmktcdf5kn1hvnpf595.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.terxlabs.rtbms_dev",
+            "certificate_hash": "907f66caaa71b6a977255e13604d208e80068867"
+          }
+        },
+        {
+          "client_id": "140966400062-ne7cpfubt09670k75r4kn9vgms0hho6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPcmYW7T0Mj8VbSmMXIR6JRfj68UcUPAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140966400062-ne7cpfubt09670k75r4kn9vgms0hho6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140966400062:android:47093aee354f9808",
+        "android_client_info": {
+          "package_name": "in.test.hospitalcount"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140966400062-fuo77kespa50pbn0s0nifa3ocro0ag71.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.test.hospitalcount",
+            "certificate_hash": "d86b345141914463afa7a0cd71bdf6a85cf53c91"
+          }
+        },
+        {
+          "client_id": "140966400062-ne7cpfubt09670k75r4kn9vgms0hho6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPcmYW7T0Mj8VbSmMXIR6JRfj68UcUPAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140966400062-ne7cpfubt09670k75r4kn9vgms0hho6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140966400062:android:890dce24706c4602",
+        "android_client_info": {
+          "package_name": "rtbms.terxlabs.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140966400062-fng1d2d1fre2u4q2uavv5mbgi8c015gl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rtbms.terxlabs.com",
+            "certificate_hash": "5fba1439bcbd74f599cfbb29386360a87e08ebc4"
+          }
+        },
+        {
+          "client_id": "140966400062-b40ce1ph935cd2qok1ioj5f5gaprd4dq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rtbms.terxlabs.com",
+            "certificate_hash": "752323d47841214c4791ae31d0c223ce91a952ec"
+          }
+        },
+        {
+          "client_id": "140966400062-cespgjj0d1ehjuk11u6l7amu85c0k97b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rtbms.terxlabs.com",
+            "certificate_hash": "7d12a5aede2f504758a225ac969663379f9e9bc0"
+          }
+        },
+        {
+          "client_id": "140966400062-8k9ep9v497vjf38ev0s18crmfba8jp94.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rtbms.terxlabs.com",
+            "certificate_hash": "d86b345141914463afa7a0cd71bdf6a85cf53c91"
+          }
+        },
+        {
+          "client_id": "140966400062-9sspra8t0av8cl41798fqfpprmv3i4qa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rtbms.terxlabs.com",
+            "certificate_hash": "e4f407a2e866ef44af773fe2c3b626f6e75fa243"
+          }
+        },
+        {
+          "client_id": "140966400062-t6ilu7hmurqsmq5bh8qes1injs6gatra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rtbms.terxlabs.com",
+            "certificate_hash": "d8bd69c6bd1f75611ae29f62aebe8b268d7802dc"
+          }
+        },
+        {
+          "client_id": "140966400062-ne7cpfubt09670k75r4kn9vgms0hho6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPcmYW7T0Mj8VbSmMXIR6JRfj68UcUPAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140966400062-ne7cpfubt09670k75r4kn9vgms0hho6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

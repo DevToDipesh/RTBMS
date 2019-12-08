@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E2C2C"
+    tools:context=".dashboard.ourteam.OurTeamFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/tool"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/dashboard_bar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/josefinsans_bold"
+                android:gravity="center"
+                android:text="Home"
+
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16ssp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlState"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_below="@+id/tool"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_43sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/search_back">
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                style="@style/Widget.AppCompat.DropDownItem.Spinner"
+                android:elevation="@dimen/_10sdp"
+                android:entries="@array/india_states"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColorHint="@color/black" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlCity"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_below="@+id/rlState"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_43sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@drawable/search_back">
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/city"
+                style="@style/Widget.AppCompat.DropDownItem.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:elevation="@dimen/_10sdp"
+                android:textAlignment="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_below="@+id/rlCity"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_43sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@drawable/search_back"
+            android:layout_marginBottom="@dimen/_10sdp">
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/blood"
+                style="@style/Widget.AppCompat.DropDownItem.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="@dimen/_10sdp"
+                android:entries="@array/SelectBloodGroup"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btSearch"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:fontFamily="@font/josefinsans_bold"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_80sdp"
+            android:background="@drawable/button"
+            android:elevation="@dimen/_30sdp"
+            android:text="Search"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</FrameLayout>

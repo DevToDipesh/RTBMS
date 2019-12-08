@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#ECEFF1">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:padding="@dimen/smallPadding"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/josefinsans_bold"
+            android:text="Blood Request"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp" />
+    </RelativeLayout>
+<FrameLayout
+    android:id="@+id/navigation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/toolbar"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHospitals"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:visibility="gone"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>
